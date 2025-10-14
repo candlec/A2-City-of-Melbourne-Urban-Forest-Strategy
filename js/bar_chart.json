@@ -1,0 +1,19 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "./data/1988-2024-Victoria-Land-Coverage.csv"
+  },
+  "width": "container",
+  "mark": "bar",
+  "encoding": {
+    "x":{
+        "field": "land_cover_classes",
+        "type": "nominal"
+    },
+    "y": {
+        "aggregate": "count",
+        "stack": "normalize",
+        "title": "Average"
+    }
+  }
+}
