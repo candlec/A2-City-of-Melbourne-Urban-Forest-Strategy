@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "./data/1988-2024-Victoria-Land-Coverage.csv"
+    "url": "https://raw.githubusercontent.com/candlec/A2-City-of-Melbourne-Urban-Forest-Strategy/refs/heads/main/data/1988-2024-Victoria-Land-Coverage.csv"
   },
   "width": "container",
   "mark": "bar",
