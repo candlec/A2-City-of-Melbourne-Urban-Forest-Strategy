@@ -1,19 +1,21 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/candlec/A2-City-of-Melbourne-Urban-Forest-Strategy/refs/heads/main/data/1988-2024-Victoria-Land-Coverage.csv"
+    "url": "https://raw.githubusercontent.com/candlec/A2-City-of-Melbourne-Urban-Forest-Strategy/refs/heads/main/data/1988-2024-Victoria-Land-Coverage-modified.csv"
   },
   "width": "container",
   "mark": "bar",
   "encoding": {
     "x":{
         "field": "land_cover_classes",
-        "type": "nominal"
+        "type": "nominal",
+        "title": "Surface Type"
     },
     "y": {
-        "aggregate": "count",
-        "stack": "normalize",
-        "title": "Average"
+        "field": "date",
+        "timeUnit": "year",
+        "type": "nominal",
+        "title": "Year"
     }
   }
 }
