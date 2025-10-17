@@ -1,75 +1,445 @@
-﻿Year,Land cover classes,Total
+﻿Year,LandCoverClasses,Total
 1988,Artificial surfaces,72291
+1988,Cultivated terrestrial vegetated: Herbaceous,11554296
+1988,Cultivated terrestrial vegetated: Woody,276565
+1988,Natural terrestrial vegetated: Herbaceous,3455290
+1988,Natural terrestrial vegetated: Woody,6792190
 1988,Natural surfaces,240668
+1988,Natural aquatic vegetated: Herbaceous,291
+1988,Natural aquatic vegetated: Woody,1098
+1988,Water: Perennial,153412
+1988,Water: Non-perennial,193372
+1988,Tidal area,8298
+1988,No data,1864
 1989,Artificial surfaces,77057
+1989,Cultivated terrestrial vegetated: Herbaceous,10914978
+1989,Cultivated terrestrial vegetated: Woody,515078
+1989,Natural terrestrial vegetated: Herbaceous,3576918
+1989,Natural terrestrial vegetated: Woody,7085477
 1989,Natural surfaces,142933
+1989,Natural aquatic vegetated: Herbaceous,256
+1989,Natural aquatic vegetated: Woody,1096
+1989,Water: Perennial,188604
+1989,Water: Non-perennial,232508
+1989,Tidal area,8333
+1989,No data,6398
 1990,Artificial surfaces,74454
+1990,Cultivated terrestrial vegetated: Herbaceous,11219470
+1990,Cultivated terrestrial vegetated: Woody,566618
+1990,Natural terrestrial vegetated: Herbaceous,2995945
+1990,Natural terrestrial vegetated: Woody,7351461
 1990,Natural surfaces,123284
+1990,Natural aquatic vegetated: Herbaceous,228
+1990,Natural aquatic vegetated: Woody,1049
+1990,Water: Perennial,184023
+1990,Water: Non-perennial,218997
+1990,Tidal area,8376
+1990,No data,5730
 1991,Artificial surfaces,88378
+1991,Cultivated terrestrial vegetated: Herbaceous,11258660
+1991,Cultivated terrestrial vegetated: Woody,317981
+1991,Natural terrestrial vegetated: Herbaceous,3633009
+1991,Natural terrestrial vegetated: Woody,6861073
 1991,Natural surfaces,208631
+1991,Natural aquatic vegetated: Herbaceous,234
+1991,Natural aquatic vegetated: Woody,1104
+1991,Water: Perennial,175489
+1991,Water: Non-perennial,193676
+1991,Tidal area,8340
+1991,No data,3062
 1992,Artificial surfaces,86584
+1992,Cultivated terrestrial vegetated: Herbaceous,9717288
+1992,Cultivated terrestrial vegetated: Woody,747608
+1992,Natural terrestrial vegetated: Herbaceous,4167072
+1992,Natural terrestrial vegetated: Woody,7406361
 1992,Natural surfaces,161523
+1992,Natural aquatic vegetated: Herbaceous,298
+1992,Natural aquatic vegetated: Woody,1190
+1992,Water: Perennial,147140
+1992,Water: Non-perennial,299157
+1992,Tidal area,8234
+1992,No data,7182
 1993,Artificial surfaces,85549
+1993,Cultivated terrestrial vegetated: Herbaceous,7979180
+1993,Cultivated terrestrial vegetated: Woody,275417
+1993,Natural terrestrial vegetated: Herbaceous,6251601
+1993,Natural terrestrial vegetated: Woody,7594090
 1993,Natural surfaces,140940
+1993,Natural aquatic vegetated: Herbaceous,137
+1993,Natural aquatic vegetated: Woody,1189
+1993,Water: Perennial,211541
+1993,Water: Non-perennial,197506
+1993,Tidal area,8467
+1993,No data,4018
 1994,Artificial surfaces,83991
+1994,Cultivated terrestrial vegetated: Herbaceous,8293095
+1994,Cultivated terrestrial vegetated: Woody,203369
+1994,Natural terrestrial vegetated: Herbaceous,5942803
+1994,Natural terrestrial vegetated: Woody,7474131
 1994,Natural surfaces,404821
+1994,Natural aquatic vegetated: Herbaceous,142
+1994,Natural aquatic vegetated: Woody,1152
+1994,Water: Perennial,192354
+1994,Water: Non-perennial,141542
+1994,Tidal area,8473
+1994,No data,3764
 1995,Artificial surfaces,91007
+1995,Cultivated terrestrial vegetated: Herbaceous,11328268
+1995,Cultivated terrestrial vegetated: Woody,753098
+1995,Natural terrestrial vegetated: Herbaceous,2528451
+1995,Natural terrestrial vegetated: Woody,7414836
 1995,Natural surfaces,210822
+1995,Natural aquatic vegetated: Herbaceous,140
+1995,Natural aquatic vegetated: Woody,1148
+1995,Water: Perennial,162422
+1995,Water: Non-perennial,247073
+1995,Tidal area,8465
+1995,No data,3906
 1996,Artificial surfaces,83998
+1996,Cultivated terrestrial vegetated: Herbaceous,9393315
+1996,Cultivated terrestrial vegetated: Woody,483138
+1996,Natural terrestrial vegetated: Herbaceous,4414691
+1996,Natural terrestrial vegetated: Woody,7614391
 1996,Natural surfaces,315784
+1996,Natural aquatic vegetated: Herbaceous,111
+1996,Natural aquatic vegetated: Woody,1174
+1996,Water: Perennial,167049
+1996,Water: Non-perennial,223449
+1996,Tidal area,8401
+1996,No data,44135
 1997,Artificial surfaces,102936
+1997,Cultivated terrestrial vegetated: Herbaceous,9864356
+1997,Cultivated terrestrial vegetated: Woody,271414
+1997,Natural terrestrial vegetated: Herbaceous,4709318
+1997,Natural terrestrial vegetated: Woody,7068541
 1997,Natural surfaces,406547
+1997,Natural aquatic vegetated: Herbaceous,257
+1997,Natural aquatic vegetated: Woody,936
+1997,Water: Perennial,170413
+1997,Water: Non-perennial,132725
+1997,Tidal area,8381
+1997,No data,13812
 1998,Artificial surfaces,95321
+1998,Cultivated terrestrial vegetated: Herbaceous,10772891
+1998,Cultivated terrestrial vegetated: Woody,279947
+1998,Natural terrestrial vegetated: Herbaceous,3819592
+1998,Natural terrestrial vegetated: Woody,7074040
 1998,Natural surfaces,424405
+1998,Natural aquatic vegetated: Herbaceous,292
+1998,Natural aquatic vegetated: Woody,1134
+1998,Water: Perennial,152997
+1998,Water: Non-perennial,110940
+1998,Tidal area,8387
+1998,No data,9690
 1999,Artificial surfaces,93450
+1999,Cultivated terrestrial vegetated: Herbaceous,7005228
+1999,Cultivated terrestrial vegetated: Woody,85053
+1999,Natural terrestrial vegetated: Herbaceous,7756927
+1999,Natural terrestrial vegetated: Woody,7349477
 1999,Natural surfaces,198599
+1999,Natural aquatic vegetated: Herbaceous,141
+1999,Natural aquatic vegetated: Woody,1202
+1999,Water: Perennial,143195
+1999,Water: Non-perennial,107102
+1999,Tidal area,8536
+1999,No data,725
 2000,Artificial surfaces,82848
+2000,Cultivated terrestrial vegetated: Herbaceous,9549575
+2000,Cultivated terrestrial vegetated: Woody,380096
+2000,Natural terrestrial vegetated: Herbaceous,4499530
+2000,Natural terrestrial vegetated: Woody,7806213
 2000,Natural surfaces,149091
+2000,Natural aquatic vegetated: Herbaceous,103
+2000,Natural aquatic vegetated: Woody,1180
+2000,Water: Perennial,144266
+2000,Water: Non-perennial,125386
+2000,Tidal area,8585
+2000,No data,2763
 2001,Artificial surfaces,88489
+2001,Cultivated terrestrial vegetated: Herbaceous,8794503
+2001,Cultivated terrestrial vegetated: Woody,406846
+2001,Natural terrestrial vegetated: Herbaceous,4825698
+2001,Natural terrestrial vegetated: Woody,8117111
 2001,Natural surfaces,246254
+2001,Natural aquatic vegetated: Herbaceous,76
+2001,Natural aquatic vegetated: Woody,1193
+2001,Water: Perennial,139288
+2001,Water: Non-perennial,115057
+2001,Tidal area,8621
+2001,No data,6502
 2002,Artificial surfaces,108284
+2002,Cultivated terrestrial vegetated: Herbaceous,8164015
+2002,Cultivated terrestrial vegetated: Woody,174612
+2002,Natural terrestrial vegetated: Herbaceous,5912140
+2002,Natural terrestrial vegetated: Woody,7652550
 2002,Natural surfaces,497376
+2002,Natural aquatic vegetated: Herbaceous,101
+2002,Natural aquatic vegetated: Woody,1184
+2002,Water: Perennial,139575
+2002,Water: Non-perennial,88112
+2002,Tidal area,8629
+2002,No data,3058
 2003,Artificial surfaces,103847
+2003,Cultivated terrestrial vegetated: Herbaceous,7826848
+2003,Cultivated terrestrial vegetated: Woody,125468
+2003,Natural terrestrial vegetated: Herbaceous,6852471
+2003,Natural terrestrial vegetated: Woody,7049641
 2003,Natural surfaces,546117
+2003,Natural aquatic vegetated: Herbaceous,204
+2003,Natural aquatic vegetated: Woody,935
+2003,Water: Perennial,103837
+2003,Water: Non-perennial,131304
+2003,Tidal area,8383
+2003,No data,582
 2004,Artificial surfaces,110183
+2004,Cultivated terrestrial vegetated: Herbaceous,7774736
+2004,Cultivated terrestrial vegetated: Woody,114610
+2004,Natural terrestrial vegetated: Herbaceous,6707057
+2004,Natural terrestrial vegetated: Woody,7368865
 2004,Natural surfaces,437324
+2004,Natural aquatic vegetated: Herbaceous,169
+2004,Natural aquatic vegetated: Woody,1177
+2004,Water: Perennial,82558
+2004,Water: Non-perennial,144243
+2004,Tidal area,8347
+2004,No data,367
 2005,Artificial surfaces,111713
+2005,Cultivated terrestrial vegetated: Herbaceous,7142473
+2005,Cultivated terrestrial vegetated: Woody,77185
+2005,Natural terrestrial vegetated: Herbaceous,7244753
+2005,Natural terrestrial vegetated: Woody,7543369
 2005,Natural surfaces,398803
+2005,Natural aquatic vegetated: Herbaceous,116
+2005,Natural aquatic vegetated: Woody,1190
+2005,Water: Perennial,124120
+2005,Water: Non-perennial,96759
+2005,Tidal area,8516
+2005,No data,639
 2006,Artificial surfaces,127300
+2006,Cultivated terrestrial vegetated: Herbaceous,7777946
+2006,Cultivated terrestrial vegetated: Woody,61361
+2006,Natural terrestrial vegetated: Herbaceous,7210041
+2006,Natural terrestrial vegetated: Woody,6840690
 2006,Natural surfaces,540211
+2006,Natural aquatic vegetated: Herbaceous,172
+2006,Natural aquatic vegetated: Woody,1203
+2006,Water: Perennial,81166
+2006,Water: Non-perennial,100690
+2006,Tidal area,8430
+2006,No data,425
 2007,Artificial surfaces,135176
+2007,Cultivated terrestrial vegetated: Herbaceous,9607512
+2007,Cultivated terrestrial vegetated: Woody,109503
+2007,Natural terrestrial vegetated: Herbaceous,5428246
+2007,Natural terrestrial vegetated: Woody,6773836
 2007,Natural surfaces,484215
+2007,Natural aquatic vegetated: Herbaceous,101
+2007,Natural aquatic vegetated: Woody,1177
+2007,Water: Perennial,90547
+2007,Water: Non-perennial,110168
+2007,Tidal area,8496
+2007,No data,660
 2008,Artificial surfaces,140714
+2008,Cultivated terrestrial vegetated: Herbaceous,6898663
+2008,Cultivated terrestrial vegetated: Woody,29411
+2008,Natural terrestrial vegetated: Herbaceous,8132577
+2008,Natural terrestrial vegetated: Woody,6552483
 2008,Natural surfaces,810595
+2008,Natural aquatic vegetated: Herbaceous,132
+2008,Natural aquatic vegetated: Woody,1084
+2008,Water: Perennial,96209
+2008,Water: Non-perennial,78392
+2008,Tidal area,8530
+2008,No data,846
 2009,Artificial surfaces,140714
+2009,Cultivated terrestrial vegetated: Herbaceous,6898663
+2009,Cultivated terrestrial vegetated: Woody,29411
+2009,Natural terrestrial vegetated: Herbaceous,8132577
+2009,Natural terrestrial vegetated: Woody,6552483
 2009,Natural surfaces,810595
+2009,Natural aquatic vegetated: Herbaceous,132
+2009,Natural aquatic vegetated: Woody,1084
+2009,Water: Perennial,96209
+2009,Water: Non-perennial,78392
+2009,Tidal area,8530
+2009,No data,846
 2010,Artificial surfaces,124216
+2010,Cultivated terrestrial vegetated: Herbaceous,7449663
+2010,Cultivated terrestrial vegetated: Woody,147225
+2010,Natural terrestrial vegetated: Herbaceous,7183227
+2010,Natural terrestrial vegetated: Woody,7364969
 2010,Natural surfaces,197801
+2010,Natural aquatic vegetated: Herbaceous,194
+2010,Natural aquatic vegetated: Woody,1201
+2010,Water: Perennial,96942
+2010,Water: Non-perennial,174359
+2010,Tidal area,8428
+2010,No data,1412
 2011,Artificial surfaces,124245
+2011,Cultivated terrestrial vegetated: Herbaceous,5429867
+2011,Cultivated terrestrial vegetated: Woody,172264
+2011,Natural terrestrial vegetated: Herbaceous,8062399
+2011,Natural terrestrial vegetated: Woody,8434063
 2011,Natural surfaces,153080
+2011,Natural aquatic vegetated: Herbaceous,83
+2011,Natural aquatic vegetated: Woody,1210
+2011,Water: Perennial,220521
+2011,Water: Non-perennial,141333
+2011,Tidal area,8557
+2011,No data,2014
 2012,Artificial surfaces,136917
+2012,Cultivated terrestrial vegetated: Herbaceous,8487814
+2012,Cultivated terrestrial vegetated: Woody,612833
+2012,Natural terrestrial vegetated: Herbaceous,4609938
+2012,Natural terrestrial vegetated: Woody,8175196
 2012,Natural surfaces,384074
+2012,Natural aquatic vegetated: Herbaceous,86
+2012,Natural aquatic vegetated: Woody,1077
+2012,Water: Perennial,189694
+2012,Water: Non-perennial,130277
+2012,Tidal area,8570
+2012,No data,13159
 2013,Artificial surfaces,136517
+2013,Cultivated terrestrial vegetated: Herbaceous,9048338
+2013,Cultivated terrestrial vegetated: Woody,234252
+2013,Natural terrestrial vegetated: Herbaceous,5204884
+2013,Natural terrestrial vegetated: Woody,7564975
 2013,Natural surfaces,261019
+2013,Natural aquatic vegetated: Herbaceous,79
+2013,Natural aquatic vegetated: Woody,1193
+2013,Water: Perennial,154014
+2013,Water: Non-perennial,133272
+2013,Tidal area,8536
+2013,No data,2558
 2014,Artificial surfaces,135335
+2014,Cultivated terrestrial vegetated: Herbaceous,7895098
+2014,Cultivated terrestrial vegetated: Woody,115317
+2014,Natural terrestrial vegetated: Herbaceous,6777348
+2014,Natural terrestrial vegetated: Woody,7214581
 2014,Natural surfaces,354680
+2014,Natural aquatic vegetated: Herbaceous,106
+2014,Natural aquatic vegetated: Woody,1174
+2014,Water: Perennial,126795
+2014,Water: Non-perennial,118463
+2014,Tidal area,8522
+2014,No data,2217
 2015,Artificial surfaces,154695
+2015,Cultivated terrestrial vegetated: Herbaceous,7300790
+2015,Cultivated terrestrial vegetated: Woody,107521
+2015,Natural terrestrial vegetated: Herbaceous,7397795
+2015,Natural terrestrial vegetated: Woody,7163379
 2015,Natural surfaces,401167
+2015,Natural aquatic vegetated: Herbaceous,102
+2015,Natural aquatic vegetated: Woody,1194
+2015,Water: Perennial,120349
+2015,Water: Non-perennial,93096
+2015,Tidal area,8530
+2015,No data,1018
 2016,Artificial surfaces,147103
+2016,Cultivated terrestrial vegetated: Herbaceous,9052116
+2016,Cultivated terrestrial vegetated: Woody,192781
+2016,Natural terrestrial vegetated: Herbaceous,5658897
+2016,Natural terrestrial vegetated: Woody,7142506
 2016,Natural surfaces,247512
+2016,Natural aquatic vegetated: Herbaceous,95
+2016,Natural aquatic vegetated: Woody,1185
+2016,Water: Perennial,107916
+2016,Water: Non-perennial,190275
+2016,Tidal area,8541
+2016,No data,709
 2017,Artificial surfaces,144743
+2017,Cultivated terrestrial vegetated: Herbaceous,7672741
+2017,Cultivated terrestrial vegetated: Woody,179869
+2017,Natural terrestrial vegetated: Herbaceous,6454816
+2017,Natural terrestrial vegetated: Woody,7815000
 2017,Natural surfaces,190218
+2017,Natural aquatic vegetated: Herbaceous,133
+2017,Natural aquatic vegetated: Woody,1196
+2017,Water: Perennial,161305
+2017,Water: Non-perennial,119421
+2017,Tidal area,8499
+2017,No data,1693
 2018,Artificial surfaces,160848
+2018,Cultivated terrestrial vegetated: Herbaceous,6990653
+2018,Cultivated terrestrial vegetated: Woody,153309
+2018,Natural terrestrial vegetated: Herbaceous,7227012
+2018,Natural terrestrial vegetated: Woody,7572209
 2018,Natural surfaces,397601
+2018,Natural aquatic vegetated: Herbaceous,269
+2018,Natural aquatic vegetated: Woody,1200
+2018,Water: Perennial,136481
+2018,Water: Non-perennial,100041
+2018,Tidal area,8347
+2018,No data,1666
 2019,Artificial surfaces,163008
+2019,Cultivated terrestrial vegetated: Herbaceous,8886496
+2019,Cultivated terrestrial vegetated: Woody,156808
+2019,Natural terrestrial vegetated: Herbaceous,5532325
+2019,Natural terrestrial vegetated: Woody,7158114
 2019,Natural surfaces,612131
+2019,Natural aquatic vegetated: Herbaceous,241
+2019,Natural aquatic vegetated: Woody,1189
+2019,Water: Perennial,115671
+2019,Water: Non-perennial,114663
+2019,Tidal area,8346
+2019,No data,644
 2020,Artificial surfaces,156960
+2020,Cultivated terrestrial vegetated: Herbaceous,9224817
+2020,Cultivated terrestrial vegetated: Woody,325979
+2020,Natural terrestrial vegetated: Herbaceous,4862536
+2020,Natural terrestrial vegetated: Woody,7559065
 2020,Natural surfaces,371371
+2020,Natural aquatic vegetated: Herbaceous,207
+2020,Natural aquatic vegetated: Woody,1192
+2020,Water: Perennial,120140
+2020,Water: Non-perennial,118249
+2020,Tidal area,8343
+2020,No data,778
 2021,Artificial surfaces,152294
+2021,Cultivated terrestrial vegetated: Herbaceous,7688465
+2021,Cultivated terrestrial vegetated: Woody,221750
+2021,Natural terrestrial vegetated: Herbaceous,6338208
+2021,Natural terrestrial vegetated: Woody,7750153
 2021,Natural surfaces,326750
+2021,Natural aquatic vegetated: Herbaceous,127
+2021,Natural aquatic vegetated: Woody,1190
+2021,Water: Perennial,131551
+2021,Water: Non-perennial,129191
+2021,Tidal area,8458
+2021,No data,1500
 2022,Artificial surfaces,158734
+2022,Cultivated terrestrial vegetated: Herbaceous,9893275
+2022,Cultivated terrestrial vegetated: Woody,856803
+2022,Natural terrestrial vegetated: Herbaceous,3372027
+2022,Natural terrestrial vegetated: Woody,7952238
 2022,Natural surfaces,163165
+2022,Natural aquatic vegetated: Herbaceous,150
+2022,Natural aquatic vegetated: Woody,1204
+2022,Water: Perennial,152609
+2022,Water: Non-perennial,187626
+2022,Tidal area,8423
+2022,No data,3381
 2023,Artificial surfaces,158885
+2023,Cultivated terrestrial vegetated: Herbaceous,8832784
+2023,Cultivated terrestrial vegetated: Woody,703652
+2023,Natural terrestrial vegetated: Herbaceous,4482771
+2023,Natural terrestrial vegetated: Woody,8106461
 2023,Natural surfaces,126129
+2023,Natural aquatic vegetated: Herbaceous,155
+2023,Natural aquatic vegetated: Woody,1210
+2023,Water: Perennial,203435
+2023,Water: Non-perennial,121789
+2023,Tidal area,8493
+2023,No data,3873
 2024,Artificial surfaces,162712
+2024,Cultivated terrestrial vegetated: Herbaceous,6906120
+2024,Cultivated terrestrial vegetated: Woody,312703
+2024,Natural terrestrial vegetated: Herbaceous,6720775
+2024,Natural terrestrial vegetated: Woody,8027434
 2024,Natural surfaces,334393
+2024,Natural aquatic vegetated: Herbaceous,193
+2024,Natural aquatic vegetated: Woody,1219
+2024,Water: Perennial,177126
+2024,Water: Non-perennial,95578
+2024,Tidal area,8446
+2024,No data,2938
