@@ -8,8 +8,8 @@
     }
   },
   "width": 800,
-  "height": 400,
-  "mark": "bar",
+  "height": 500,
+  "mark": "area",
   "encoding": {
     "x":{
         "field": "Year",

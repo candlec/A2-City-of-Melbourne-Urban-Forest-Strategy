@@ -7,8 +7,9 @@
       "parse": {"Total": "integer"}
     }
   },
+  "transform": [{"filter": {"field": "LandCoverClasses", "oneOf" : ["Artificial surfaces", "Natural surfaces"]}}],
   "width": 800,
-  "height": 400,
+  "height": 500,
   "mark": "bar",
   "encoding": {
     "x":{
