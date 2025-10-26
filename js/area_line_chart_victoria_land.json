@@ -38,7 +38,7 @@
       "width": 730,
       "height": 200,
       "mark": "line",
-      "title": "Year Filter",
+      "title": "Filter by Year Below",
       "params": [
         {
         "name": "time_brush",
