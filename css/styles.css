@@ -1,17 +1,8 @@
-#choropleth_map {
-	top:100px;
-	bottom: 100px; 
-	left: 100px;
-	right: 100px;
-	/*height: 1000px;
-	width: 800px;*/
-}
-
 .page {
-  width: 850px;
-  background-color: white;
+  width: 1000px;
+  background-color: #f4ecdc;
   margin: auto;
-  padding: 50px;
+  padding: 40px;
   padding-top: 35px;
 }
 
@@ -32,6 +23,15 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+	padding: 10px;
 }
 
+.twenty_nineteen_text {
+	color: #DB7093;
+	font-weight: bold;
+}
 
+.twenty_twenty_one_text {
+	color: #2E6F40;
+	font-weight: bold;
+}

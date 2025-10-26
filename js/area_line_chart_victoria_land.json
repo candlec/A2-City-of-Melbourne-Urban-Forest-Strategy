@@ -9,8 +9,8 @@
   },
   "vconcat": [
     {
-    "title": "Breakdown of Land Cover Type Distribution across 1988-2024",
-    "width": "container",
+    "title": "Land Cover Type Distribution across 1988-2024",
+    "width": 700,
     "height": 400,
     "mark": "area",
     "transform": [{"filter": {"param": "time_brush"}}],
@@ -30,12 +30,12 @@
           "field": "Total",
           "type": "quantitative",
           "sort": "ascending",
-          "title": "Total"
+          "title": "Total Hectares"
       }
     }
     },  
     {
-      "width": "container",
+      "width": 730,
       "height": 200,
       "mark": "line",
       "title": "Year Filter",
@@ -62,7 +62,8 @@
             "color": {
             "field": "LandCoverClasses",
             "scale": {"range": ["#587470", "#A3F5CC", "#BF364D", "#7DB800", "#764134", "#B88F65", "#49AB8C", "#6EC4BD", "#89C9E6", "#74B4BE", "#0081A7", "#C1C3C3"]},
-            "title": ""
+            "title": "",
+            "legend": {"padding": 1}
             }
      }
     }

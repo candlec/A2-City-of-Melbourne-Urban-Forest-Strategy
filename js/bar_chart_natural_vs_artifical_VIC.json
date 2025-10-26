@@ -17,12 +17,13 @@
         "field": "Year",
         "timeUnit": "year",
         "type": "nominal",
-        "title": "Surface Type"
+        "title": ""
     },
     "color": {
       "field": "LandCoverClasses",
       "scale": {"range": ["#587470", "#A3F5CC", "#BF364D", "#7DB800", "#764134", "#B88F65", "#49AB8C", "#6EC4BD", "#89C9E6", "#74B4BE", "#0081A7", "#C1C3C3"]},
-      "title": "Land cover Type"
+      "title": "Land cover Type",
+      "legend": {"direction": "horizontal", "orient": "bottom"}
     },
     "y": {
         "field": "Total",
@@ -30,9 +31,7 @@
         "sort": "ascending",
         "title": "Total Hectares"
     },
-    "tooltip" :{
-      "field": "Total",
-      "title": "Total Hectares"
-    }
+    "tooltip": [{"field": "Total", "title": "Total Hectares"},
+      {"field": "Year", "timeUnit": "year", "title": "Year"}]
   }
 }
