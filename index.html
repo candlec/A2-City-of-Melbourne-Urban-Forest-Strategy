@@ -7,11 +7,13 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dorsa&family=Limelight&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
     integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!--TODO: Import google font here-->
 
     <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
 
@@ -21,26 +23,36 @@
     <div class="page">
         <div class="pure-g">
             <div class="pure-u-1-1">
-                <h1>Australian Bureau of Statistics</h1>
+                <h1 class="limelight-regular">City of Melbourne Urban Forest Strategy</h1>
             </div>
+        </div>
+    
+        <div class="pure-g">
+    <div class="pure-u-1-2">
+            <p class="noto-sans">The city of Melbourne aims to have a tree canopy of 40% by 2040</p>
+            <p class="noto-sans">The map to the right has a dot for each tree placement in the City of Melbourne from the year 2019 in pink and 2021 in green. There were 114784 trees recorded in 2019 and 57980 trees recorded in 2021, that is a loss of more than half the tree popuation over 3 years</p>
+      </div>
+      <div class="pure-u-1-2">
+        <div id="vis1" class="vis-container"></div>
+        <div id="vis3" class="vis-container"></div>
+      </div>
+      <div class="pure-u-1-2"><div id="vis2" class="vis-container"></div></div>
     </div>
     </div>
+    
 
     <script type="text/javascript">
-        var specVis1 = "./chloropleth_map.json";
-        var specVis2 = "./line-chart-responsive.json";
+        var specVis1 = "./js/dot_plot_map.json";
+        var specVis2 = "./js/area_chart_v2.json";
+        var specVis3 = "./js/bar_chart_natural_vs_artifical.json";
 
-        vegaEmbed('#vis1', specVis1, { "actions": false });
-
+        vegaEmbed('#vis1', specVis1, { "actions": false }).then(function (result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
         vegaEmbed('#vis2', specVis2, { "actions": false }).then(function (result) {
         // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
-
-        vegaEmbed('#vis3', specVis1, { "actions": false }).then(function (result) {
-        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-        }).catch(console.error);
-
-        vegaEmbed('#vis4', specVis2, { "actions": false }).then(function (result) {
+        vegaEmbed('#vis3', specVis3, { "actions": false }).then(function (result) {
         // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
     </script>

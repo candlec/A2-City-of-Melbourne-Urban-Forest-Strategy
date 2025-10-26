@@ -1,42 +1,42 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Melbourne City Tree Canopy 2021",
-  "width": 800,
-  "height": 400,
+  "title": "Melbourne City Tree Canopy 2019 and 2021",
+  "width": 600,
+  "height": 600,
   "projection": {"type": "equirectangular"},
   "layer":[
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/candlec/FIT3179_Week9_Homework/refs/heads/main/js/MB_2016_VIC.json",
+        "url": "https://raw.githubusercontent.com/candlec/A2-City-of-Melbourne-Urban-Forest-Strategy/refs/heads/main/js/MB_2016_VIC.json",
         "format": {"type": "topojson", "feature": "MB_2016_VIC"}
       },
       "mark": {"type": "geoshape", "fill":"lightgrey", "stroke":"white"},
-      "transform": [
-        {
-          "lookup": "SA2_NAME16",
-          "from": {
-            "data": {
-              "url": "https://raw.githubusercontent.com/candlec/FIT3179_Week9_Homework/refs/heads/main/js/MB_2016_VIC.json",
-              "format": {
-                "type": "topojson",
-                "feature": "SA2_NAME16"
-              }
-            },
-            "key": "SA2_NAME16"
-          },
-          "as": "geo"
+      "encoding": {
+        "tooltip": {
+          "field": "properties.SA2_NAME16"
         }
-      ]
+      }
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/candlec/FIT3179_Week9_Homework/refs/heads/main/data/2021TreeCanopy.csv"
+        "url": "https://raw.githubusercontent.com/candlec/A2-City-of-Melbourne-Urban-Forest-Strategy/refs/heads/main/data/2019TreeCanopy.csv",
+        "format": {"type": "csv"}
       },
-      "mark": {"type": "circle", "color": "mediumseagreen"},
+      "mark": {"type": "circle", "color": "palevioletred", "opacity": 0.4, "size": 5},
       "encoding": {
-        "longitude": {"field": "longitude", "type":"quantitative"},
-        "latitude": {"field": "latitude", "type":"quantitative"},
-        "size": {"value": 2}
+        "longitude": {"field": "longitude2019", "type":"quantitative"},
+        "latitude": {"field": "latitude2019", "type":"quantitative"}
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/candlec/A2-City-of-Melbourne-Urban-Forest-Strategy/refs/heads/main/data/2021TreeCanopy.csv",
+        "format": {"type": "csv"}
+      },
+      "mark": {"type": "circle", "color": "forestgreen", "opacity": 0.4, "size": 5},
+      "encoding": {
+        "longitude": {"field": "longitude2021", "type":"quantitative"},
+        "latitude": {"field": "latitude2021", "type":"quantitative"}
       }
     }
   ]

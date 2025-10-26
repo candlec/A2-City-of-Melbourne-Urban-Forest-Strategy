@@ -10,7 +10,7 @@
   "vconcat": [
     {
     "width": "container",
-    "height": 500,
+    "height": 400,
     "mark": "area",
     "transform": [{"filter": {"param": "time_brush"}}],
     "encoding": {
@@ -35,7 +35,7 @@
     },  
     {
       "width": "container",
-      "height": 250,
+      "height": 200,
       "mark": "line",
       "title": "Year Filter",
       "params": [

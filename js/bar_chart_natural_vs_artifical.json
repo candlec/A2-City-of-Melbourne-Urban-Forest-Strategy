@@ -8,8 +8,8 @@
     }
   },
   "transform": [{"filter": {"field": "LandCoverClasses", "oneOf" : ["Artificial surfaces", "Natural surfaces"]}}],
-  "width": 800,
-  "height": 500,
+  "width": 400,
+  "height": 300,
   "mark": "bar",
   "encoding": {
     "x":{
@@ -28,6 +28,9 @@
         "type": "quantitative",
         "sort": "ascending",
         "title": "Total"
+    },
+    "tooltip" :{
+      "field": "Total"
     }
   }
 }
