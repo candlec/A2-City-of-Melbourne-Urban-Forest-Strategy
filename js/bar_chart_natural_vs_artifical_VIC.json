@@ -8,6 +8,7 @@
     }
   },
   "transform": [{"filter": {"field": "LandCoverClasses", "oneOf" : ["Artificial surfaces", "Natural surfaces"]}}],
+  "title": "Victorian Artifical and Natural Surface Split",
   "width": 400,
   "height": 300,
   "mark": "bar",
@@ -27,10 +28,11 @@
         "field": "Total",
         "type": "quantitative",
         "sort": "ascending",
-        "title": "Total"
+        "title": "Total Hectares"
     },
     "tooltip" :{
-      "field": "Total"
+      "field": "Total",
+      "title": "Total Hectares"
     }
   }
 }

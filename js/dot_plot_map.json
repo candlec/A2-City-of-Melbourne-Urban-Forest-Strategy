@@ -13,7 +13,8 @@
       "mark": {"type": "geoshape", "fill":"lightgrey", "stroke":"white"},
       "encoding": {
         "tooltip": {
-          "field": "properties.SA2_NAME16"
+          "field": "properties.SA2_NAME16",
+          "title": "Statistical Area 2 Name"
         }
       }
     },

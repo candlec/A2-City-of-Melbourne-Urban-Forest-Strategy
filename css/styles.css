@@ -15,6 +15,10 @@
   padding-top: 35px;
 }
 
+.vis-container {
+  width: 100%;
+}
+
 .limelight-regular{
   font-family: "Limelight", sans-serif;
   font-weight: 400;
